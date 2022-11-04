@@ -1,0 +1,77 @@
+:root {
+  --graphik: 'Graphik', sans-serif;
+}
+
+.content7 {
+  display: flex;
+  flex-direction: column;
+  background: #181818;
+  align-items: center;
+  padding: 50px 199px;
+  gap: 40px;
+  text-align: center;
+}
+
+.content7-header {
+  width: 35vw;
+  color: #ffff;
+}
+
+.content7-title {
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.content7-description {
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.content7-cards-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.content7-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 476px;
+  padding: 40px 0px;
+  gap: 40px;
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.content7-cards-heading {
+  width: 20vw;
+}
+
+.content7-cards-title {
+  font-family: var(--graphik);
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.content7-cards-description {
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 16px;
+  color: #5C5C5C;
+}
+
+.content7-cards-btn {
+  background: #4452FE;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  font-family: var(--graphik);
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+}
