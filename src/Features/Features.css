@@ -1,0 +1,95 @@
+:root {
+  --graphik: 'Graphik', sans-serif;
+}
+
+.features {
+  background: #181818;
+  padding: 60px 30px;
+}
+
+.features-heading {
+  margin: auto;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.features-heading-title {
+  font-family: var(--graphik);
+  font-size: 45px;
+  padding-bottom: 40px;
+  font-weight: 400;
+
+}
+
+.features-heading-description {
+  font-family: var(--graphik);
+  font-size: 20px;
+  font-weight: 400;
+  width: 45vw;
+  margin: auto;
+
+}
+
+.features-content {
+  display: flex;
+  gap: 30px;
+  padding: 80px 0 50px 150px;
+}
+
+.content-frame {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.frame-chatbot {
+  position: relative;
+  width: 680px;
+  height: 650px;
+}
+
+.frame-lineChart {
+  position: absolute;
+  width: 400px;
+  height: 270px;
+  z-index: 1;
+  right: -25px;
+  bottom: 0;
+}
+
+.text-block-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-textblock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  color: #FFFFFF;
+  max-width: 270px;
+}
+
+.text-block-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-block-icon {
+  padding-top: 10px;
+
+}
+
+.text-block-title {
+  font-family: var(--graphik);
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.text-block-description {
+  font-family: var(--graphik);
+  font-size: 14px;
+  line-height: 24px;
+}
