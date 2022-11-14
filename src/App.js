@@ -1,4 +1,4 @@
-import Features from "./Features/Features";
+import Features from "./Components/Features/Features";
 import "./App.css";
 
 function App() {
