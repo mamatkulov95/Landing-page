@@ -1,40 +1,37 @@
-:root {
-  --graphik: 'Graphik', sans-serif;
-}
-
-.content7 {
+.content {
   display: flex;
   flex-direction: column;
   background: #181818;
   align-items: center;
-  padding: 50px 199px;
+  padding: 60px 0 50px;
   gap: 40px;
   text-align: center;
 }
 
-.content7-header {
-  width: 35vw;
+.content-header {
+  width: 40%;
   color: #ffff;
+  text-align: center;
 }
 
-.content7-title {
+.content-title {
   font-family: var(--graphik);
   font-weight: 400;
-  font-size: 40px;
+  font-size: 52px;
 }
 
-.content7-description {
+.content-description {
   font-family: var(--graphik);
   font-weight: 400;
-  font-size: 17px;
+  font-size: 20px;
 }
 
-.content7-cards-wrapper {
+.client-cards-wrapper {
   display: flex;
   gap: 30px;
 }
 
-.content7-cards {
+.client-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,24 +44,24 @@
   border-radius: 10px;
 }
 
-.content7-cards-heading {
-  width: 20vw;
+.client-cards-heading {
+  width: 55%;
 }
 
-.content7-cards-title {
+.client-cards-title {
   font-family: var(--graphik);
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
 }
 
-.content7-cards-description {
+.client-cards-description {
   font-family: var(--graphik);
   font-weight: 400;
   font-size: 16px;
   color: #5C5C5C;
 }
 
-.content7-cards-btn {
+.client-cards-btn {
   background: #4452FE;
   box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
   font-family: var(--graphik);
@@ -74,4 +71,19 @@
   padding: 15px 40px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.client-cards-btn:hover {
+  background: steelblue;
+  color: black;
+  transition: 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+  .client-cards-wrapper {
+    flex-direction: column;
+  }
 }

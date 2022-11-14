@@ -1,10 +1,10 @@
-import Content7 from "./Content7/Content7";
+import ClientPage from "./ClientPage/ClientPage";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Content7 />
+      <ClientPage />
     </div>
   );
 }
