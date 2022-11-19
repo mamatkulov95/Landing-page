@@ -12,9 +12,9 @@ const ClientPage = () => {
         </p>
       </div>
       <div className="client-cards-wrapper">
-        {data.map(({ title, description, btn, logo }, item) => {
+        {data.map(({ title, description, btn, logo }, idx) => {
           return (
-            <div className="client-cards" key={item}>
+            <div className="client-cards" key={idx}>
               <div className="client-cards-heading">
                 <h2 className="client-cards-title">{title}</h2>
                 <p className="client-cards-description">{description}</p>
