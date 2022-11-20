@@ -9,3 +9,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: var(--bg-color);
+  color: #FFFFFF;
+  font-family: var(--graphik);
+}

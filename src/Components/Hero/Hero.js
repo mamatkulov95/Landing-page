@@ -1,4 +1,4 @@
-import screenImg from "../images/screens.svg";
+import screenImg from "../../images/screens.svg";
 import "./Hero.css";
 
 const Hero = () => {
