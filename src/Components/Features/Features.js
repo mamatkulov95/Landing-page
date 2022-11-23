@@ -5,7 +5,7 @@ import "./Features.css";
 
 const Features = () => {
   return (
-    <div className="features">
+    <section className="features">
       <div className="features-heading">
         <h1 className="features-heading-title">FEATURES</h1>
         <p className="features-heading-description">
@@ -31,7 +31,7 @@ const Features = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,13 +1,11 @@
 .features {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #181818;
-  padding: 60px;
+  margin-top: 160px;
 }
 
 .features-heading {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
   text-align: center;
   color: #FFFFFF;
 }
@@ -15,7 +13,6 @@
 .features-heading-title {
   font-family: var(--graphik);
   font-size: 52px;
-  padding-bottom: 40px;
   font-weight: 400;
 
 }
@@ -24,7 +21,7 @@
   font-family: var(--graphik);
   font-size: 20px;
   font-weight: 400;
-  width: 55%;
+  max-width: 50%;
   margin: auto;
 
 }
@@ -32,13 +29,11 @@
 .features-content {
   display: flex;
   justify-content: center;
-  gap: 1.8rem;
-  padding: 5rem;
+  margin-top: 80px;
 }
 
 .content-frame {
   position: relative;
-  padding-bottom: 80px;
 }
 
 .frame-chatbot {
@@ -63,7 +58,7 @@
 .content-textblock {
   display: flex;
   flex-direction: column;
-  padding: 45px 35px;
+  padding: 30px;
   color: #FFFFFF;
   max-width: 270px;
 }
@@ -99,7 +94,7 @@
   line-height: 24px;
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .features-content {
     flex-direction: column;
     align-items: center;
