@@ -1,5 +1,7 @@
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
+import Features from "./Components/Features/Features";
+
 import "./App.css";
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
+      <Features />
     </div>
   );
 }
