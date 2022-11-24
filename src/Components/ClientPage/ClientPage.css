@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 60px 0 50px;
   gap: 40px;
   text-align: center;
 }
@@ -14,13 +13,11 @@
 }
 
 .content-title {
-  font-family: var(--graphik);
   font-weight: 400;
   font-size: 52px;
 }
 
 .content-description {
-  font-family: var(--graphik);
   font-weight: 400;
   font-size: 20px;
 }
@@ -34,12 +31,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 476px;
-  padding: 40px 0px;
   gap: 40px;
-  background: #FFFFFF;
-  border: 1px solid #D3D3D3;
-  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  width: 470px;
+  padding: 40px 0px;
+  background: #ffffff;
   border-radius: 10px;
 }
 
@@ -48,34 +43,32 @@
 }
 
 .client-cards-title {
-  font-family: var(--graphik);
   font-weight: 500;
   font-size: 20px;
 }
 
 .client-cards-description {
-  font-family: var(--graphik);
   font-weight: 400;
   font-size: 16px;
-  color: #5C5C5C;
+  color: #5c5c5c;
 }
 
 .client-cards-btn {
-  background: #4452FE;
-  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
-  font-family: var(--graphik);
-  font-weight: 400;
+  background: #4452fe;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 15px 40px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
+.client-cards-img {
+  max-inline-size: 80%;
+}
+
 .client-cards-btn:hover {
-  background: steelblue;
-  color: black;
+  opacity: 0.8;
   transition: 0.2s ease-in-out;
   transform: scale(1.1);
 }
@@ -87,15 +80,40 @@
     width: 55%;
   }
 
-  .client-cards-wrapper {
-    flex-direction: column;
+
+  @media screen and (max-width: 1024px) {
+    .content-header {
+      width: 100%;
+      text-align: center;
+    }
+
+    .content-title {
+      font-size: 40px;
+    }
+
+    .content-description {
+      width: 60%;
+      margin: 0 auto;
+      word-break: break-word;
+    }
+
+    .client-cards-wrapper {
+      flex-direction: column;
+    }
+
+    .client-cards {
+      width: 350px;
+    }
+
+    .client-cards-img {
+      width: 80%;
+    }
   }
 
-  .client-cards {
-    width: 350px;
-  }
+}
 
-  .client-cards-img {
-    width: 80%;
+@media screen and (max-width: 425px) {
+  .content-description {
+    width: 95%;
   }
 }
