@@ -1,16 +1,28 @@
 :root {
   --graphik: 'Graphik', sans-serif;
-}
-
-body {
-  box-sizing: border-box;
-  background: #181818;
-  margin: 0;
-  padding: 0;
+  --bg-color: #181818;
+  --btn-bg: #4452fe;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+
+body {
+  box-sizing: border-box;
+  color: #ffffff;
+  background: var(--bg-color);
+  font-family: var(--graphik);
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
 }
