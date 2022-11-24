@@ -1,4 +1,4 @@
-import ClientPage from "./ClientPage/ClientPage";
+import ClientPage from "./Components/ClientPage/ClientPage";
 import "./App.css";
 
 function App() {

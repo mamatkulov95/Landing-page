@@ -5,7 +5,7 @@ export default [
     description:
       "Ever wondered if you're too reliant on a client for work? Slate helps you identify",
     btn: "Sign Up",
-    logo: require("../images/screen.png"),
+    logo: require("../../images/screen.png"),
   },
   {
     id: 2,
@@ -13,6 +13,6 @@ export default [
     description:
       "Ever wondered if you're too reliant on a client for work? Slate helps you identify",
     btn: "Try For Free",
-    logo: require("../images/board-notification.png"),
+    logo: require("../../images/board-notification.png"),
   },
 ];

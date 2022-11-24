@@ -1,3 +1,7 @@
 :root {
   --graphik: 'Graphik', sans-serif;
 }
+
+body {
+  background: #181818;
+}

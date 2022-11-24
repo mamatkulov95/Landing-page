@@ -1,7 +1,6 @@
 .content {
   display: flex;
   flex-direction: column;
-  background: #181818;
   align-items: center;
   padding: 60px 0 50px;
   gap: 40px;
@@ -81,9 +80,22 @@
   transform: scale(1.1);
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+
+  .content-header {
+    width: 55%;
+  }
 
   .client-cards-wrapper {
     flex-direction: column;
+  }
+
+  .client-cards {
+    width: 350px;
+  }
+
+  .client-cards-img {
+    width: 80%;
   }
 }
