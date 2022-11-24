@@ -1,5 +1,7 @@
 :root {
-  --graphik: 'Graphik', sans-serif;
+  --graphik: "Graphik", sans-serif;
+  --bg-color: #181818;
+  --btn-bg: #4452fe;
 }
 
 * {
@@ -9,5 +11,16 @@
 }
 
 body {
-  background: #181818;
+  color: #ffffff;
+  background: var(--bg-color);
+  font-family: var(--graphik);
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
 }
