@@ -8,9 +8,9 @@ const Navbar = () => {
 
   const navItems = [
     { id: 1, name: "Home" },
-    { id: 1, name: "Product" },
-    { id: 1, name: "About" },
-    { id: 1, name: "Contact" },
+    { id: 2, name: "Product" },
+    { id: 3, name: "About" },
+    { id: 4, name: "Contact" },
   ];
   return (
     <nav className="navbar">
@@ -18,29 +18,21 @@ const Navbar = () => {
         <img className="nav-logo" src={darkLogo}></img>
       </div>
 
-      <div
-        className={
-          isNavExpanded
-            ? "nav-menus expanded" && "nav-items expanded"
-            : "nav-menus"
-        }
-      >
-        <ul className="nav-menus expanded">
-          {navItems.map((item) => (
-            <li className="nav-items expanded">
-              <a className="nav-link" href="#">
-                {item.name}
-              </a>
-            </li>
-          ))}
-        </ul>
+      <div className={`nav-menu  ${isNavExpanded && "expanded"}`}>
+        {navItems.map((item) => (
+          <li className="nav-items">
+            <a className="nav-link " href="#">
+              {item.name}
+            </a>
+          </li>
+        ))}
       </div>
 
       <div
         onClick={() => {
           setIsNavExpanded(!isNavExpanded);
         }}
-        className="menu-logo"
+        className="menu-icon"
       >
         <img src={menuIcon}></img>
       </div>
