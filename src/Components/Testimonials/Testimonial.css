@@ -15,11 +15,11 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 60px;
+  padding: 70px;
 }
 
 .testimonial-users {
-  width: 310px;
+  width: 390px;
   padding: 40px 70px 40px 40px;
   border: 1px solid #DEDEDE;
   border-radius: 10px;
