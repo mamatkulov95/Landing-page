@@ -4,12 +4,16 @@
   align-items: center;
   gap: 40px;
   text-align: center;
+  margin-top: 100px;
 }
 
 .content-header {
   width: 40%;
-  color: #ffff;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 10px;
 }
 
 .content-title {
@@ -74,12 +78,9 @@
 }
 
 @media screen and (max-width: 768px) {
-
-
   .content-header {
     width: 55%;
   }
-
 
   @media screen and (max-width: 1024px) {
     .content-header {
@@ -109,7 +110,6 @@
       width: 80%;
     }
   }
-
 }
 
 @media screen and (max-width: 425px) {
