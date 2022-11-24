@@ -18,16 +18,14 @@ const Navbar = () => {
         <img className="nav-logo" src={darkLogo}></img>
       </div>
 
-      <div className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
-        <ul className="nav-menu">
-          {navItems.map((item) => (
-            <li className="nav-items">
-              <a className="nav-link " href="#">
-                {item.name}
-              </a>
-            </li>
-          ))}
-        </ul>
+      <div className={`nav-menu  ${isNavExpanded && "expanded"}`}>
+        {navItems.map((item) => (
+          <li className="nav-items">
+            <a className="nav-link " href="#">
+              {item.name}
+            </a>
+          </li>
+        ))}
       </div>
 
       <div

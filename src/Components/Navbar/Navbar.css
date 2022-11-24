@@ -22,9 +22,20 @@
   display: none;
 }
 
+.nav-items:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff7300;
+}
+
 .expanded {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
   gap: 20px;
   position: absolute;
   left: 0;
