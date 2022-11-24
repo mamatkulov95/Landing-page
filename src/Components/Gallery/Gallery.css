@@ -65,7 +65,7 @@
   font-size: 17px;
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
   .gallery-img1,
   .gallery-img2 {
