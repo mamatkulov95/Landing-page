@@ -8,6 +8,8 @@
 
 .footer-left-nav {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 100px;
 }
 
@@ -77,11 +79,6 @@
 
   .footer {
     flex-direction: column;
-    gap: 100px;
-
-  }
-
-  .footer {
     text-align: center;
     gap: 50px;
   }
