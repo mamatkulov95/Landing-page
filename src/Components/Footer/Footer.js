@@ -1,4 +1,6 @@
+import Hamburger from "hamburger-react";
 import "./Footer.css";
+import { useState } from "react";
 import twitter from "../../images/twitter.png";
 import fc from "../../images/fc.png";
 import linkedn from "../../images/linkedn.svg";
@@ -28,12 +30,14 @@ const menus = [
 ];
 
 const Footer = () => {
+  const [isOpen, setOpen] = useState(false);
+
   return (
     <div className="footer">
       <div className="footer-left-nav">
         {title.map((index) => (
           <div className="footer-nav" key={index}>
-            <p className="footer-nav-heading">{index.heading}</p>
+            <p className="footer-nav-title">{index.heading}</p>
             <div className="footer-nav-menus">
               {menus.map((item) => (
                 <ul className="footer-nav-list" key={item}>
