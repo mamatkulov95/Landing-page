@@ -1,5 +1,5 @@
 :root {
-  --graphik: "Graphik", sans-serif;
+  --graphik: 'Graphik', sans-serif;
   --bg-color: #181818;
   --btn-bg: #4452fe;
 }
@@ -10,7 +10,9 @@
   box-sizing: border-box;
 }
 
+
 body {
+  box-sizing: border-box;
   color: #ffffff;
   background: var(--bg-color);
   font-family: var(--graphik);

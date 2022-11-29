@@ -3,6 +3,7 @@ import Hero from "./Components/Hero/Hero";
 import Features from "./Components/Features/Features";
 import ClientPage from "./Components/ClientPage/ClientPage";
 import Gallery from "./Components/Gallery/Gallery";
+import Partners from "./Components/Partners/Partners";
 
 import "./App.css";
 
@@ -14,6 +15,7 @@ function App() {
       <Features />
       <ClientPage />
       <Gallery />
+      <Partners />
     </div>
   );
 }
