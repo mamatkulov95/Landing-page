@@ -1,0 +1,102 @@
+.cta {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.cta-content {
+  display: flex;
+  align-items: center;
+  background: #343434;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+.cta-left {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 75px 50px 75px 95px;
+}
+
+.cta-title {
+  font-family: var(--graphik);
+  font-weight: 400;
+  width: 100%;
+  font-size: 42px;
+  color: #ffffff;
+}
+
+.cta-btn {
+  background: #4452fe;
+  width: 232px;
+  height: 52px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.cta-btn-text {
+  font-family: var(--graphik);
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.cta-right {
+  background-image: url("../../images/f-chart.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 585px 410px;
+  border-bottom-right-radius: 20px;
+  width: 725px;
+  height: 400px;
+  padding: 10px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .cta-right {
+    display: none;
+  }
+
+  .cta {
+    padding: 40px;
+  }
+
+  .cta-left {
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .cta-btn {
+    width: 200px;
+  }
+
+  .cta-title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cta {
+    padding: 20px;
+  }
+
+  .cta-content {
+    flex-direction: column;
+  }
+
+  .cta-right {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cta-content {
+    flex-direction: row;
+  }
+}

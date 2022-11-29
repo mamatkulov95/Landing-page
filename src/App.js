@@ -5,6 +5,7 @@ import ClientPage from "./Components/ClientPage/ClientPage";
 import Gallery from "./Components/Gallery/Gallery";
 import Partners from "./Components/Partners/Partners";
 import Testimonial from "./Components/Testimonials/Testimonial";
+import CallToAction from "./Components/CallToAction/CallToAction";
 
 import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
       <Gallery />
       <Partners />
       <Testimonial />
+      <CallToAction />
     </div>
   );
 }
