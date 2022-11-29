@@ -1,7 +1,6 @@
 .cta {
   width: 80%;
-  margin: auto;
-  padding: 80px;
+  margin: 80px auto;
 }
 
 .cta-content {
@@ -24,11 +23,11 @@
   font-weight: 400;
   width: 100%;
   font-size: 42px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .cta-btn {
-  background: #4452FE;
+  background: #4452fe;
   width: 232px;
   height: 52px;
   cursor: pointer;
@@ -39,7 +38,7 @@
 .cta-btn-text {
   font-family: var(--graphik);
   font-size: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .cta-btn:hover {
@@ -59,7 +58,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .cta-right {
     display: none;
   }
@@ -83,8 +81,7 @@
   }
 }
 
-@media screen and (min-width:768px) {
-
+@media screen and (min-width: 768px) {
   .cta {
     padding: 20px;
   }
@@ -96,10 +93,9 @@
   .cta-right {
     margin-bottom: 20px;
   }
-
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   .cta-content {
     flex-direction: row;
   }
