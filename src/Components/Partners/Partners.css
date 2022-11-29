@@ -22,10 +22,11 @@
 }
 
 .partners-icons {
-  display: grid;
-  grid-template: 60px /repeat(6, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
   padding: 50px;
-  grid-gap: 20px;
   width: 60%;
   margin: auto;
   cursor: pointer;
@@ -69,9 +70,11 @@
   font-size: 17px;
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
   .partners-icons {
-    grid-template: 60px 60px /repeat(3, 1fr);
+    gap: 40px;
+    width: 300px;
   }
+
 }
