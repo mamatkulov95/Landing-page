@@ -1,4 +1,3 @@
-import Hamburger from "hamburger-react";
 import "./Footer.css";
 import { useState } from "react";
 import twitter from "../../images/twitter.png";

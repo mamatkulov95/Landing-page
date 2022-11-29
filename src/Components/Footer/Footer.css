@@ -1,7 +1,6 @@
 .footer {
   display: flex;
   justify-content: center;
-  width: 100vw;
   gap: 200px;
   padding: 5%;
   color: #ffff;
@@ -27,7 +26,6 @@
 
 .footer-nav-menus {
   margin-top: 40px;
-
 }
 
 .footer-nav-list {
@@ -88,7 +86,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .footer {
     flex-direction: column;
     align-items: center;
@@ -104,7 +101,6 @@
     width: 50%;
   }
 }
-
 
 @media screen and (min-width: 768px) {
   .footer {

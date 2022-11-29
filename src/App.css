@@ -1,9 +1,15 @@
 :root {
-  --graphik: 'Graphik', sans-serif;
+  --graphik: "Graphik", sans-serif;
   --bg-color: #181818;
   --btn-bg: #4452fe;
 }
 
+body {
+  font-family: var(--graphik);
+  box-sizing: border-box;
+  background: #181818;
+  color: white;
+}
 
 * {
   margin: 0;
@@ -12,6 +18,7 @@
 }
 
 body {
+  box-sizing: border-box;
   color: #ffffff;
   background: var(--bg-color);
   font-family: var(--graphik);
