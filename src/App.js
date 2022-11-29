@@ -4,6 +4,7 @@ import Features from "./Components/Features/Features";
 import ClientPage from "./Components/ClientPage/ClientPage";
 import Gallery from "./Components/Gallery/Gallery";
 import Partners from "./Components/Partners/Partners";
+import Testimonial from "./Components/Testimonials/Testimonial";
 
 import "./App.css";
 
@@ -16,6 +17,7 @@ function App() {
       <ClientPage />
       <Gallery />
       <Partners />
+      <Testimonial />
     </div>
   );
 }
