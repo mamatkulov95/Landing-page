@@ -6,6 +6,7 @@ import Gallery from "./Components/Gallery/Gallery";
 import Partners from "./Components/Partners/Partners";
 import Testimonial from "./Components/Testimonials/Testimonial";
 import CallToAction from "./Components/CallToAction/CallToAction";
+import Footer from "./Components/Footer/Footer";
 
 import "./App.css";
 
@@ -20,6 +21,7 @@ function App() {
       <Partners />
       <Testimonial />
       <CallToAction />
+      <Footer />
     </div>
   );
 }
