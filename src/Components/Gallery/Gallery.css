@@ -95,7 +95,7 @@
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1245px) {
   .gallery-img1 {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -105,8 +105,11 @@
     gap: 33px;
   }
 
+
   .imgs {
     width: auto;
   }
+
+
 
 }
