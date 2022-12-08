@@ -1,18 +1,21 @@
 import photos from "./Images";
+import pcIcon from "../../images/pc-code.png";
+import laptopIcon from "../../images/laptop.png";
+import canonIcon from "../../images/canon.png";
 import "./Gallery.css";
 
 const photoGallery = [
   {
     id: 1,
-    Photo: require("../../images/pc-code.png"),
+    Photo: pcIcon,
   },
   {
     id: 2,
-    Photo: require("../../images/laptop.png"),
+    Photo: laptopIcon,
   },
   {
     id: 3,
-    Photo: require("../../images/canon.png"),
+    Photo: canonIcon,
   },
 ];
 
@@ -29,13 +32,17 @@ const Gallery = () => {
 
       <div className="gallery-img1">
         {photos.map((item) => (
-          <img className="imgs" src={item.Photo}></img>
+          <div className="img-wrapper">
+            <img className="imgs" src={item.Photo}></img>
+          </div>
         ))}
       </div>
 
       <div className="gallery-img2">
         {photoGallery.map((item) => (
-          <img className="imgs" src={item.Photo}></img>
+          <div className="img-wrapper2">
+            <img className="imgs" src={item.Photo}></img>
+          </div>
         ))}
       </div>
 
