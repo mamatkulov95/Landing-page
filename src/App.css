@@ -4,6 +4,13 @@
   --btn-bg: #4452fe;
 }
 
+body {
+  font-family: var(--graphik);
+  box-sizing: border-box;
+  background: #181818;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +18,7 @@
 }
 
 body {
+  box-sizing: border-box;
   color: #ffffff;
   background: var(--bg-color);
   font-family: var(--graphik);
