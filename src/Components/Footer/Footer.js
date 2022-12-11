@@ -29,8 +29,6 @@ const menus = [
 ];
 
 const Footer = () => {
-  const [isOpen, setOpen] = useState(false);
-
   return (
     <div className="footer">
       <div className="footer-left-nav">
