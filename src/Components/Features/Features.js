@@ -1,6 +1,6 @@
 import data from "./FeaturesData";
 import chatBot from "../../images/chat-bot.svg";
-import lineCHart from "../../images/line-chart.svg";
+import lineCHart from "../../images/line-chart.png";
 import "./Features.css";
 
 const Features = () => {
