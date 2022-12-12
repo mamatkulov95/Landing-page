@@ -29,8 +29,6 @@ const menus = [
 ];
 
 const Footer = () => {
-  const [isOpen, setOpen] = useState(false);
-
   return (
     <div className="footer">
       <div className="footer-left-nav">
@@ -50,11 +48,19 @@ const Footer = () => {
 
       <div className="footer-right">
         <div className="footer-location">
-          <img src={location}></img>
+          <img
+            className="footer-contact-icons"
+            src={location}
+            alt="contact-icons"
+          ></img>
           <p className="footer-address">7480 Mockingbird Hill undefined </p>
         </div>
         <div className="footer-contact">
-          <img src={phone}></img>
+          <img
+            className="footer-contact-icons"
+            src={phone}
+            alt="contact-icons"
+          ></img>
           <p className="contact-number">(239) 555-0108</p>
         </div>
         <div className="footer-social">

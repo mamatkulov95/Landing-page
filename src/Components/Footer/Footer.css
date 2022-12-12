@@ -97,27 +97,34 @@
     gap: 20px;
   }
 
+  .footer-contact-icons {
+    display: none;
+  }
+
   .footer-right {
-    width: 50%;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer {
-    gap: 170px;
+    gap: 8%;
   }
 
   .footer-left-nav {
-    gap: 20px;
+    gap: 30px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
-    gap: 200px;
+    gap: 180px;
   }
 
   .footer-left-nav {
-    gap: 90px;
+    gap: 80px;
   }
 }
