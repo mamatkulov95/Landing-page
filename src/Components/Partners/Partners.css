@@ -5,19 +5,21 @@
 }
 
 .partners-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   width: 42%;
   margin: auto;
+  font-family: var(--graphik);
 }
 
 .partners-title {
-  font-family: var(--graphik);
   font-weight: 400;
   font-size: 52px;
 }
 
 
 .partners-content {
-  font-family: var(--graphik);
   font-size: 20px;
 }
 
@@ -71,6 +73,11 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .partners-header {
+    justify-content: center;
+    min-width: 205px;
+  }
 
   .partners-icons {
     gap: 40px;
