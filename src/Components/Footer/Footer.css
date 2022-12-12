@@ -103,14 +103,15 @@
 
   .footer-right {
     flex-direction: column-reverse;
+    align-items: center;
     width: 90%;
+    margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer {
     gap: 8%;
-
   }
 
   .footer-left-nav {
