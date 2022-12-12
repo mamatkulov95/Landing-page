@@ -5,19 +5,20 @@
 }
 
 .partners-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   width: 42%;
   margin: auto;
+  font-family: var(--graphik);
 }
 
 .partners-title {
-  font-family: var(--graphik);
   font-weight: 400;
   font-size: 52px;
 }
 
-
 .partners-content {
-  font-family: var(--graphik);
   font-size: 20px;
 }
 
@@ -26,7 +27,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 70px;
-  padding: 50px;
+  padding: 50px 0;
   width: 60%;
   margin: auto;
   cursor: pointer;
@@ -48,7 +49,7 @@
 }
 
 .partners-button {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   background: #181818;
   color: #fff;
   padding: 10px 30px;
@@ -71,10 +72,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .partners-header {
+    justify-content: center;
+    width: 90%;
+  }
 
   .partners-icons {
     gap: 40px;
     width: 300px;
   }
-
 }
