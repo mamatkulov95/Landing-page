@@ -97,8 +97,13 @@
     gap: 20px;
   }
 
+  .footer-contact-icons {
+    display: none;
+  }
+
   .footer-right {
-    width: 50%;
+    flex-direction: column-reverse;
+    width: 90%;
   }
 }
 
