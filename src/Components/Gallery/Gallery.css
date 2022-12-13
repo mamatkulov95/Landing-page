@@ -9,7 +9,7 @@
 }
 
 .gallery-header {
-  width: 90%;
+  width: 70%;
   margin: auto;
 }
 
@@ -68,9 +68,10 @@
 }
 
 @media screen and (min-width: 768px) {
+
   .gallery-img1,
   .gallery-img2 {
-    width: 65%;
+    width: 85%;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     justify-items: center;
     align-items: center;
@@ -83,9 +84,14 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
+
   .gallery-img1,
   .gallery-img2 {
-    width: 50%;
+    width: 60%;
+  }
+
+  .gallery-header {
+    width: 40%;
   }
 }
