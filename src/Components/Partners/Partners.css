@@ -81,4 +81,9 @@
     gap: 40px;
     width: 300px;
   }
+
+  .partners-content {
+    width: 60%;
+    margin: auto;
+  }
 }
