@@ -8,19 +8,18 @@
   gap: 25px;
   text-align: center;
   color: #ffffff;
+  font-family: var(--graphik);
 }
 
 .features-heading-title {
-  font-family: var(--graphik);
   font-size: 52px;
   font-weight: 400;
 }
 
 .features-heading-description {
-  font-family: var(--graphik);
   font-size: 20px;
   font-weight: 400;
-  max-width: 50%;
+  width: 50%;
   margin: auto;
 }
 
@@ -59,6 +58,7 @@
   padding: 30px;
   color: #ffffff;
   max-width: 270px;
+  font-family: var(--graphik);
 }
 
 .content-textblock:hover {
@@ -79,14 +79,12 @@
 }
 
 .text-block-title {
-  font-family: var(--graphik);
   font-size: 20px;
   line-height: 30px;
   padding-top: 10px;
 }
 
 .text-block-description {
-  font-family: var(--graphik);
   font-size: 14px;
   line-height: 24px;
 }
@@ -104,7 +102,7 @@
   }
 
   .features-heading-description {
-    max-width: 100%;
+    width: 70%;
   }
 
   .content-frame {
@@ -127,5 +125,17 @@
 
   .text-block-description {
     text-align: start;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .frame-chatbot {
+    width: 630px;
+    height: 620px;
+  }
+
+  .frame-lineChart {
+    width: 370px;
+    height: 240px;
   }
 }
