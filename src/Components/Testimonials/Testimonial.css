@@ -15,7 +15,7 @@
   flex-wrap: wrap;
   gap: 20px;
   width: 70%;
-  margin: 40px auto 0;
+  margin: 40px auto 150px;
 }
 
 .testimonial-users {
@@ -27,6 +27,7 @@
   border: 1px solid #dedede;
   border-radius: 10px;
   text-align: left;
+  font-family: var(--graphik);
 }
 
 .testimonial-avatar {
@@ -41,17 +42,14 @@
 }
 
 .testimonial-person {
-  font-family: var(--graphik);
   font-size: 16px;
 }
 
 .testimonial-position {
-  font-family: var(--graphik);
   font-size: 16px;
 }
 
 .testimonial-description {
-  font-family: var(--graphik);
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 1px;
@@ -64,5 +62,11 @@
     border: 1px solid #dedede;
     border-radius: 10px;
     text-align: left;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .testimonial-content {
+    width: 60%
   }
 }
